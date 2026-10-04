@@ -1,0 +1,1 @@
+usr = input("Escriba su nombre  de usuario \n")

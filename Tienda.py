@@ -1,0 +1,2 @@
+from _typeshed import OpenTextModeUpdating
+OpenTextModeUpdating

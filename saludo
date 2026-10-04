@@ -1,0 +1,23 @@
+# Nombre : Luis Santiago Cubillos
+# Grado : 1008
+
+print ("Que lenguaje hablas? | What language you speak? | あなたは何語を話しますか？ ")
+print ("Escribe 1 para seleccionar español | Write 2 to select english | 日本語を選択するには「3」を入力してください。")
+lan = input("Number ")
+if lan == "1" :
+ nombre=input ("Escriba su nombre \n")
+ edad=int(input ("Escriba su edad \n"))
+ cda=input ("Escriba su ciudad \n")
+ print (f"Hola {nombre} tienes {edad} años y tu ciudad es {cda} \n")
+elif lan =="2":
+ nombre=input ("What is your name ? \n")
+ edad=int(input ("How old are you ?\n"))
+ cda=input ("Where do you live ?\n")
+ print (f"Hi {nombre} your age is {edad} and you live in {cda} \n")
+elif lan == "3":
+ nombre=input ("あなたの名前は何ですか? \n")
+ edad=int(input ("何歳ですか？\n"))
+ cda=input ("どこに住んでいますか?\n")
+ print (f"こんにちは {nombre} あなたの年齢は {edad} そして、あなたは～に住んでいます {cda} \n")
+else :
+  print ("Error : Language not exist")
